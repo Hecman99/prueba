@@ -33,7 +33,7 @@
 	
 	<script type="text/javascript">
 		$(document).ready(function() {
-			$.getJSON('read.php', function(json) {
+			$.getJSON('http://lhol-itp-sd-01.epizy.com/read.php', function(json) {
 				var tr=[];
 				for (var i = 0; i < json.length; i++) {
 					tr.push('<tr>');
